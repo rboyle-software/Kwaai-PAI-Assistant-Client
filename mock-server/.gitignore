@@ -32,8 +32,6 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
-mock-server/.env*.local
-mock-server/.env
 
 # vercel
 .vercel
