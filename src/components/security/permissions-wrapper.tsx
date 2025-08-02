@@ -8,9 +8,9 @@ const getUserPermissions = (): string[] => {
   //   const stored = sessionStorage.getItem('userPermissions')
   //   return stored ? JSON.parse(stored) : []
   // }
-  // return [ 'viewer' ];
+  return [ 'viewer' ];
   // return [ 'admin' ];
-  return [ 'viewer', 'admin' ];
+  // return [ 'viewer', 'admin' ];
 }
 
 interface PermissionsWrapperProps {
